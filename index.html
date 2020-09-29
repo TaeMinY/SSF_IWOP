@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/fullpage.css" />
+    <link rel="stylesheet" href="css/font-face.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/fullpage.js"></script>
     <script>
@@ -12,13 +14,25 @@
         $("#fullpage").fullpage({
           autoScrolling: true,
           scrollHorizontally: true,
+          navigation: true,
         });
       });
     </script>
   </head>
   <body>
     <div id="fullpage">
-      <div class="section">Some section</div>
+      <div class="section">
+        <div class="container">
+          <img
+            src="assets/img/iwop.png"
+            alt="Profile"
+            width="180px"
+            height="180px"
+            class="container1__profile"
+          />
+          <div class="container1__title">IWOP의 사이트</div>
+        </div>
+      </div>
       <div class="section">Some section</div>
       <div class="section">Some section</div>
       <div class="section">Some section</div>

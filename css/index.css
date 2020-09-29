@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container:nth-child(1) {
+  background: #36afff;
+}
+.container1__profile {
+  border-radius: 100%;
+}
+.container1__title {
+  margin-top: 24px;
+  font-size: 36px;
+  font-family: "NanumSRB";
+  color: white;
+}
