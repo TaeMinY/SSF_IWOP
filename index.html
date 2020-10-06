@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/fullpage.css" />
-    <link rel="stylesheet" href="css/font-face.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/fullpage.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#fullpage").fullpage({
-          autoScrolling: true,
-          scrollHorizontally: true,
-          navigation: true,
-        });
-      });
-    </script>
-  </head>
-  <body>
-    <div id="fullpage">
-      <div class="section">
-        <div class="container">
-          <img
-            src="assets/img/iwop.png"
-            alt="Profile"
-            width="180px"
-            height="180px"
-            class="container1__profile"
-          />
-          <div class="container1__title">IWOP의 사이트</div>
-        </div>
-      </div>
-      <div class="section">Some section</div>
-      <div class="section">Some section</div>
-      <div class="section">Some section</div>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/fullpage.css" />
+		<link rel="stylesheet" href="css/font-face.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/fullpage.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#fullpage").fullpage({
+					autoScrolling: true,
+					scrollHorizontally: true,
+					navigation: true,
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="fullpage">
+			<header class="section">
+				<div class="container">
+					<div class="container__title">
+						<div>아이왑의</div>
+						<div>자기소개 사이트</div>
+					</div>
+				</div>
+			</header>
+			<section class="section">
+				<div class="container">
+					<div class="container__title">소개</div>
+				</div>
+			</section>
+			<section class="section">Some section</section>
+			<section class="section">Some section</section>
+		</div>
+	</body>
 </html>
